@@ -24,14 +24,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot of the project](./preview.png)
 
 This screenshot reflects the exact design, showing how well the code matches the intended layout. It also demonstrates the hover effect applied to the card, which adds a nice interactive touch.
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [My live site URL here](https://blog-preview-card-main-one-delta.vercel.app/)
 
 ## My process
 
