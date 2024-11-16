@@ -8,9 +8,9 @@
     --gray-950: hsl(0, 0%, 7%);
 
     --text-font: "Figtree", sans-serif;
-    --small-text-size: 14px;
-    --regular-text-size: 16px;
-    --title-text-size: 24px;
+    --small-text-size: 0.875rem;
+    --regular-text-size: 1rem;
+    --title-text-size: 1.5rem;
     --normal-text-weight: 500;
     --extra-bold-text-weight: 800;
 }
@@ -50,6 +50,7 @@ time {
     border-radius: 20px;
     border: 1px solid;
     box-shadow: 8px 8px hsl(0, 0%, 0%);
+    transition: 300ms;
 }
 
 .card__image {
@@ -81,6 +82,7 @@ time {
 
 .card__title {
     font-weight: var(--extra-bold-text-weight);
+    transition: 300ms;
 }
 
 .card__description {
@@ -115,4 +117,37 @@ time {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+/* Hover */
+.card:hover {
+    cursor: pointer;
+    box-shadow: 16px 16px hsl(0, 0%, 0%);
+    transition: 600ms;
+}
+
+.card:hover .card__title {
+    color: var(--yellow);
+    transition: 600ms;
+}
+
+/* Mobile version */
+@media (max-width: 480px) {
+    .card {
+        width: 300px;
+    }
+
+    .card__category-name,
+    .card__publish-date {
+        font-size: 0.75rem;
+    }
+
+    .card__title {
+        font-size: 1.25rem;
+    }
+
+    .card__description {
+        font-size: 0.875rem;
+    }
+
 }
