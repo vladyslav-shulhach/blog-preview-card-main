@@ -34,7 +34,7 @@ body {
 p,
 h1,
 time {
-    line-height: 140%;
+    line-height: 150%;
     color: var(--gray-950);
     font-family: var(--text-font);
 }
