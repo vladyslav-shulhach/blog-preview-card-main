@@ -30,7 +30,7 @@ This screenshot reflects the exact design, showing how well the code matches the
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [My solution URL here](https://www.frontendmentor.io/solutions/blog-preview-card-solution-using-html-and-css-6fDPN6riwu)
 - Live Site URL: [My live site URL here](https://blog-preview-card-main-one-delta.vercel.app/)
 
 ## My process
