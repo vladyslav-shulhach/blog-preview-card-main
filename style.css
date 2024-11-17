@@ -82,6 +82,7 @@ time {
 
 .card__title {
     font-weight: var(--extra-bold-text-weight);
+    font-size: var(--title-text-size);
     transition: 300ms;
 }
 
